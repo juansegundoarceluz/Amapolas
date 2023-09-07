@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../proyecto"
+		},
+		{
+			"path": "../mi primer pagina web"
+		},
+		{
+			"path": "../juanchipe"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mi primer pagina web"
+	}
+}
