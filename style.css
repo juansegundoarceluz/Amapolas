@@ -66,13 +66,23 @@ button {
     background-color: var(--skin-color);
 }
 
-.mi-boton a{
+.boton-1 a{
     text-decoration: none;
     color: #ffff;
 }
 
 
-.mi-boton a:hover{
+.boton-1 a:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+.boton-2 a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+.boton-2 a:hover{
     text-decoration: none;
     color: #ffff;
 }
@@ -97,6 +107,11 @@ header {
    display: flex;
 }
 
+.header .container .href li a{
+    margin-top: 0;
+    margin-left: 600px;
+}
+
 
 .header .container .logo h1{
     font-family:'Bebas Neue', sans-serif;
@@ -114,7 +129,7 @@ header {
 
 .header .container li a:hover {
 
-    color: var(--skin-color);
+    color: var(--color-acento);
     text-decoration: none;
 }
 
@@ -226,7 +241,7 @@ header .container nav a {
     color: var(--bg-black-900);
  }
 .container-3 h3 span{
-    color: var(--color-acento);
+    color: var(--skin-color);
 
 }
 
@@ -307,25 +322,25 @@ header nav {
 }
 
 .informacion .info-1:hover{
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 3px var(--color-acento);
 
     
 }
 
 .informacion .info-2:hover{
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 3px var(--color-acento);
 
     
 }
 
 .informacion .info-3:hover{
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 3px var(--color-acento);
 
     
 }
 
 .informacion .info-4:hover{
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 3px var(--color-acento);
 
     
 }
@@ -349,8 +364,34 @@ header nav {
 .informacion p{
     color: var(--text-black-700);
 }
+ .container-footer{
+    color: var(--bg-black-100);
+ }
 
-.container-footer{
- color: var(--bg-black-100);
+ .redes{
+    margin-left: 70%;
+ }
+
+ .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration:#f7465b;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    margin: 20px 10px;
+    font-size: 20px;
+    transition: .3s; 
 }
+
+.redes a:hover{
+    background-color: #f7465b;
+}
+
+.redes a i{
+    margin: 10px;
+    color: var(--bg-black-100);
+}
+
 
