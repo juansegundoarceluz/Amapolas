@@ -1,0 +1,14 @@
+[data-animacion="show"]{
+    opacity: 0;
+    transform: translate(100%);
+    transition: .9s ease-in .3s;
+
+
+    --opacity: 1;
+    --transfrom: translate(0);
+}
+
+.unset{
+    opacity: var(--opacity);
+    transform: var(--transfrom);
+}

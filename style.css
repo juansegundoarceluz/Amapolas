@@ -103,22 +103,26 @@ header {
     width: 100%;
 }
 
-.header .container li{
-   display: flex;
+.header .container li {
+   display:flex;
 }
 
-.header .container .href li a{
-    margin-top: 0;
-    margin-left: 600px;
+.header .container .href {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+    padding-bottom: 80px;
+    padding-top: 0%;
 }
 
 
-.header .container .logo h1{
+.header .container  p{
+    width: 60%;
     font-family:'Bebas Neue', sans-serif;
-    font-size: 1.9em;
+    font-size: 1.5em;
 }
 
-.header .container li a {
+.header .container .href li a {
     font-family: 'Clicker Script', cursive;
     font-size: 0.9em;
     white-space: nowrap;
@@ -134,9 +138,6 @@ header {
 }
 
 
-.container .logo nav{
-    flex-direction:row;
-}
 
 header .container {
     font-weight: bold;
@@ -147,15 +148,10 @@ header .container {
 }
 
 
-header .container .logo{
+/* header .container .logo{
 
-    display: flex;
-}
-
-header .container nav a {
-   display:flex;
-   padding-top: 10px;
-}
+   display: inline-block;
+} */
 
 #somos_calzados{
     text-align: center;
@@ -323,30 +319,42 @@ header nav {
 
 .informacion .info-1:hover{
     box-shadow: 0 0 5px 3px var(--color-acento);
+    transition: 0.6s all ease;
+    transform: scale(1.1);
+
 
     
 }
 
 .informacion .info-2:hover{
     box-shadow: 0 0 5px 3px var(--color-acento);
+    transition: 0.6s all ease;
+    transform: scale(1.15);
 
     
 }
 
 .informacion .info-3:hover{
     box-shadow: 0 0 5px 3px var(--color-acento);
+    transition: 0.6s all ease;
+    transform: scale(1.15);
 
     
 }
 
 .informacion .info-4:hover{
     box-shadow: 0 0 5px 3px var(--color-acento);
+    transition: 0.6s all ease;
+    transform: scale(1.15);
 
     
 }
 
 .informacion .all{
     flex: 0 0 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
     max-width: 90%;
     display: flex;
     
