@@ -110,9 +110,9 @@ header {
 .header .container .href {
     display: flex;
     justify-content: space-between;
-    margin-left: 50%;
+    margin: 0;
     padding-bottom: 80px;
-    padding-top: 0%;
+    padding-top: 0;
 }
 
 
@@ -194,6 +194,13 @@ header .container {
 
 .container-1 h2 span{
     color: var(--color-acento);
+}
+
+.container-1 .intro{
+    font-size: 2.0em;
+    font-family: 'Clicker Script', cursive !important;
+    text-decoration:dotted;
+    
 }
 
 .container-2{
@@ -329,7 +336,7 @@ header nav {
 .informacion .info-2:hover{
     box-shadow: 0 0 5px 3px var(--color-acento);
     transition: 0.6s all ease;
-    transform: scale(1.15);
+    transform: scale(1.1);
 
     
 }
@@ -337,7 +344,7 @@ header nav {
 .informacion .info-3:hover{
     box-shadow: 0 0 5px 3px var(--color-acento);
     transition: 0.6s all ease;
-    transform: scale(1.15);
+    transform: scale(1.1);
 
     
 }
@@ -345,7 +352,7 @@ header nav {
 .informacion .info-4:hover{
     box-shadow: 0 0 5px 3px var(--color-acento);
     transition: 0.6s all ease;
-    transform: scale(1.15);
+    transform: scale(1.1);
 
     
 }
@@ -373,33 +380,82 @@ header nav {
     color: var(--text-black-700);
 }
  .container-footer{
+    margin-left: 2%;
     color: var(--bg-black-100);
+    width: 50%;
  }
 
+
+
+ .redes h2{
+    font-size: 2.5em;
+    color: var(--bg-black-100);
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+
+ }
+ 
  .redes{
-    margin-left: 70%;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
  }
 
  .redes a{
-    color: #fff;
-    display: inline-block;
-    text-decoration:#f7465b;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    margin: 20px 10px;
-    font-size: 20px;
-    transition: .3s; 
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.5s ease;
 }
+
+
 
 .redes a:hover{
     background-color: #f7465b;
 }
 
-.redes a i{
-    margin: 10px;
-    color: var(--bg-black-100);
+.redes .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.5s ease;
+   
 }
+
+.redes .icon .fa-brands{
+    font-size: 35px;
+    margin-left: 30%;
+    margin-top: 3%;
+    line-height: 50px;
+    color: var(--color-acento);
+    transition: all 0.5s ease;
+}
+
+.redes:hover .icon{
+    background-color: var(--skin-color);
+    text-decoration: none !important;
+}
+
+.redes:hover .icon .fa-brands{
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+.redes:hover .icon a{
+    text-decoration: none;
+}
+
+
 
 

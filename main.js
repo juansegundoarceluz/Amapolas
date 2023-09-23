@@ -8,6 +8,18 @@ var typed = new Typed(".typing", {
 
 })
 
+
+var typed = new Typed(".intro", {
+    strings: ["Aqui veras toda la informacion sobre este sitio web "],
+    typeSpeed: 100,
+    BackSpeed: 60,
+    loop: false
+
+})
+
+
+
+
 const images = document.querySelectorAll('show');
 
 function triggerAnimation(entries) {

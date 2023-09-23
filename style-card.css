@@ -15,11 +15,11 @@
 
 }
 
-/* CARD VERANO */
+/*////////////////////// CARD VERANO //////////////////////////////////////////////////////*/
 
 button {
 
-    font-size: 1.35em;
+    font-size: 1.15em;
     margin-bottom: 10px;
     font-weight: initial;
     border-radius: 10px;
@@ -87,11 +87,11 @@ button:hover {
 }
 
 
-/* CARD INVIERNO */
+/*/////////////////////////// CARD INVIERNO //////////////////////////////////*/
 
 .boton-invierno {
 
-    font-size: 1.35em;
+    font-size: 1.15em;
     margin-bottom: 10px;
     font-weight: initial;
     border-radius: 10px;
@@ -155,4 +155,57 @@ button:hover {
 
 .card-invierno .description p span {
     color: var(--color-invierno);
+}
+
+/* /////////////////////////section ACCESORIOS/////////////////////// */
+
+
+.all-accesorios {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    flex: 0 0 50%;
+    max-width: 90%;
+    display: flex;
+}
+
+.card-accesorios {
+    flex: 0 0 100%;
+    max-width: 23%;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    background-color: var(--text-black-850);
+    border: 2px solid var(--text-black-400);
+    text-align: center;
+    border-radius: 25px;
+    transition: all .3s ease;
+}
+
+.card-accesorios:hover {
+    box-shadow: 0 0 5px 3px var(--color-acento);
+    transition: 0.6s all ease;
+    transform: scale(1.1);
+}
+
+.card-accesorios img {
+    margin-top: 10px;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: all 1.2s ease;
+
+}
+
+.card-accesorios img:hover {
+    transform: scale(.96);
+}
+
+.card-accesorios .description p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-accesorios .description p span {
+    color: #ff1f39
 }
