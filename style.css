@@ -401,8 +401,12 @@ header nav {
  
  .redes{
     display: flex;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 5%;
+ }
+
+ .redes .icon{
+    margin-left: 10%;
  }
 
  .redes a{
@@ -410,7 +414,6 @@ header nav {
     width: 60px;
     border-radius: 50%;
     display: flex;
-    margin: 0 auto 30px;
     text-align: center;
     transition: all 0.5s ease;
 }
@@ -421,7 +424,8 @@ header nav {
     background-color: #f7465b;
 }
 
-.redes .icon{
+
+.redes .icon .div-1{
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -432,7 +436,7 @@ header nav {
    
 }
 
-.redes .icon .fa-brands{
+.redes .icon .div-1 .fa-brands{
     font-size: 35px;
     margin-left: 30%;
     margin-top: 3%;
@@ -441,20 +445,96 @@ header nav {
     transition: all 0.5s ease;
 }
 
-.redes:hover .icon{
+.redes .icon:hover .div-1{
     background-color: var(--skin-color);
     text-decoration: none !important;
 }
 
-.redes:hover .icon .fa-brands{
+.redes .icon:hover .div-1 .fa-brands{
+    padding-left: 5%;
     font-size: 25px;
     color: #ffffff;
 
 }
 
-.redes:hover .icon a{
+.redes .icon:hover .div-1 a{
     text-decoration: none;
 }
+
+
+.redes .icon .div-2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.5s ease;
+   
+}
+
+.redes .icon .div-2 .fa-brands{
+    font-size: 35px;
+    margin-left: 30%;
+    margin-top: 3%;
+    line-height: 50px;
+    color: var(--color-acento);
+    transition: all 0.5s ease;
+}
+
+.redes .icon:hover .div-2{
+    background-color: var(--skin-color);
+    text-decoration: none !important;
+}
+
+.redes .icon:hover .div-2 .fa-brands{
+    padding-left: 2%;
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+.redes .icon:hover .div-2 a{
+    text-decoration: none;
+}
+
+
+.redes .icon .div-3{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.5s ease;
+   
+}
+
+.redes .icon .div-3 .fa-brands{
+    font-size: 35px;
+    margin-left: 30%;
+    margin-top: 3%;
+    line-height: 50px;
+    color: var(--color-acento);
+    transition: all 0.5s ease;
+}
+
+.redes .icon:hover .div-3{
+    background-color: var(--skin-color);
+    text-decoration: none !important;
+}
+
+.redes .icon:hover .div-3 .fa-brands{
+    padding-left: 3%;
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+.redes .icon:hover .div-3 a{
+    text-decoration: none;
+}
+
 
 
 
