@@ -672,10 +672,14 @@ header nav {
     .container-2 {
         height: 325px;
         width: 300px;
+        padding-top: 10px;
     }
 
     .container-2 h3 {
         font-size: 1.6em;
+    }
+    .container-2 p {
+        font-size: 1.2em;
     }
 
     .container-3 {
@@ -685,6 +689,9 @@ header nav {
     .container-3 h3 {
         font-size: 1.6em;
     }
+    .container-3 p {
+        font-size: 1.3em;
+    }
 
     .container-4 {
         height: 325px;
@@ -692,6 +699,9 @@ header nav {
 
     .container-4 h3 {
         font-size: 1.4em;
+    }
+    .container-4 p {
+        font-size: 1.1em;
     }
 
 }
