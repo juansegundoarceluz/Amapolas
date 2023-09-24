@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:wght@200;300;400;500;600&family=Sofia+Sans:wght@100&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,700&family=Sofia+Sans:wght@100&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200;1,800&display=swap');
 
-:root{
+:root {
 
-        --bg-black-900: #f2f2f2;
-        --bg-black-100: #f2f2f2;
-        --bg-black-50: #f2f2f2;
-        --text-black-900: #252A2E ;
-        --text-black-700: #1e2326;
-         --text-black-350: #f6f6f7;
-        --text-black-400: #f2f2f2;
-        --text-black-850: #ffffff;
-        --skin-color: 	#f7465b;
-        --color-acento: #fa7988;
+    --bg-black-900: #f2f2f2;
+    --bg-black-100: #f2f2f2;
+    --bg-black-50: #f2f2f2;
+    --text-black-900: #252A2E;
+    --text-black-700: #1e2326;
+    --text-black-350: #f6f6f7;
+    --text-black-400: #f2f2f2;
+    --text-black-850: #ffffff;
+    --skin-color: #f7465b;
+    --color-acento: #fa7988;
 
-    
-    }
-    .padd-25 {
+
+}
+
+.padd-25 {
     padding-left: 80px;
     padding-right: 40px;
     max-width: 100%;
@@ -33,7 +34,7 @@
 
 html {
     scroll-behavior: smooth;
-    flex-direction:row;
+    flex-direction: row;
 
 
 }
@@ -49,7 +50,7 @@ body {
     margin: 0;
 }
 
-.body{
+.body {
     background-color: var(--text-black-700);
 }
 
@@ -66,23 +67,24 @@ button {
     background-color: var(--skin-color);
 }
 
-.boton-1 a{
+.boton-1 a {
     text-decoration: none;
     color: #ffff;
 }
 
 
-.boton-1 a:hover{
+.boton-1 a:hover {
     text-decoration: none;
     color: #ffff;
 }
-.boton-2 a{
+
+.boton-2 a {
     text-decoration: none;
     color: #ffff;
 }
 
 
-.boton-2 a:hover{
+.boton-2 a:hover {
     text-decoration: none;
     color: #ffff;
 }
@@ -97,14 +99,15 @@ button:hover {
     color: var(--skin-color);
     transition: 1.6s all ease;
 }
+
 header {
 
-    background-color:var(--text-black-900);
+    background-color: var(--text-black-900);
     width: 100%;
 }
 
 .header .container li {
-   display:flex;
+    display: flex;
 }
 
 .header .container .href {
@@ -116,9 +119,9 @@ header {
 }
 
 
-.header .container  p{
+.header .container p {
     width: 60%;
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5em;
 }
 
@@ -147,13 +150,21 @@ header .container {
 
 }
 
+.nav-responsive{
+    background-color:#f7465b;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
 
 /* header .container .logo{
 
    display: inline-block;
 } */
 
-#somos_calzados{
+#somos_calzados {
     text-align: center;
     padding-top: 1px;
     padding-bottom: 15px;
@@ -161,7 +172,7 @@ header .container {
     max-width: 80%;
     margin-left: 10%;
     border-radius: 25px;
-    background-color:#252A2E ;
+    background-color: #252A2E;
 
     background-repeat: repeat;
 }
@@ -172,8 +183,8 @@ header .container {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-1{
-    background-color:var(--text-black-700);
+.container-1 {
+    background-color: var(--text-black-700);
     border: 1px solid var(--text-black-400);
     color: var(--skin-color);
     text-align: center;
@@ -185,50 +196,27 @@ header .container {
     transition: all .35s ease;
 
 }
- .container-1 p{
+
+.container-1 p {
     color: var(--bg-black-900);
- }
-.container-1:hover{
+}
+
+.container-1:hover {
     box-shadow: 0 0 15px var(--skin-color);
 }
 
-.container-1 h2 span{
+.container-1 h2 span {
     color: var(--color-acento);
 }
 
-.container-1 .intro{
+.container-1 .intro {
     font-size: 2.0em;
     font-family: 'Clicker Script', cursive !important;
-    text-decoration:dotted;
-    
-}
-
-.container-2{
-    background-color:var(--text-black-700);
-    border: 1px solid var(--text-black-400);
-    text-align: center;
-    padding-bottom: 15px;
-    margin-top: 50px;
-    max-width: 50%;
-    margin-left: 25%;
-    border-radius: 20px;
-    transition: all .35s ease;
- 
-
-}
-.container-2 p{
-    color: var(--bg-black-900);
- }
-.container-2 h3 span{
-    color: var(--color-acento);
+    text-decoration: dotted;
 
 }
 
-.container-2:hover{
-    box-shadow: 0 0 20px var(--color-acento);
-}
-
-.container-3{
+.container-2 {
     background-color: var(--text-black-700);
     border: 1px solid var(--text-black-400);
     text-align: center;
@@ -238,22 +226,25 @@ header .container {
     margin-left: 25%;
     border-radius: 20px;
     transition: all .35s ease;
-  
+
+
 }
-.container-3 p{
+
+.container-2 p {
     color: var(--bg-black-900);
- }
-.container-3 h3 span{
-    color: var(--skin-color);
+}
+
+.container-2 h3 span {
+    color: var(--color-acento);
 
 }
 
-.container-3:hover{
-    box-shadow: 0 0 20px var(--skin-color);
+.container-2:hover {
+    box-shadow: 0 0 20px var(--color-acento);
 }
 
-.container-4{
-    background-color:var(--text-black-700);
+.container-3 {
+    background-color: var(--text-black-700);
     border: 1px solid var(--text-black-400);
     text-align: center;
     padding-bottom: 15px;
@@ -262,17 +253,45 @@ header .container {
     margin-left: 25%;
     border-radius: 20px;
     transition: all .35s ease;
-  
+
 }
-.container-4 p{
+
+.container-3 p {
     color: var(--bg-black-900);
- }
-.container-4 h3 span{
+}
+
+.container-3 h3 span {
+    color: var(--skin-color);
+
+}
+
+.container-3:hover {
+    box-shadow: 0 0 20px var(--skin-color);
+}
+
+.container-4 {
+    background-color: var(--text-black-700);
+    border: 1px solid var(--text-black-400);
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    transition: all .35s ease;
+
+}
+
+.container-4 p {
+    color: var(--bg-black-900);
+}
+
+.container-4 h3 span {
     color: var(--color-acento);
 
 }
 
-.container-4:hover{
+.container-4:hover {
     box-shadow: 0 0 20px var(--color-acento);
 }
 
@@ -283,26 +302,26 @@ header nav {
     padding-bottom: 40px;
 }
 
-#caracteristicas{
+#caracteristicas {
     text-align: center;
     margin-bottom: 0%;
     margin-bottom: 0%;
 
 }
 
-.informacion{
+.informacion {
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
 }
 
-.informacion h1{
+.informacion h1 {
     color: var(--skin-color);
     background-color: var(--bg-black-100);
     text-align: center;
     font-size: 55px;
 }
 
-.informacion p{
+.informacion p {
     text-align: center;
     font-size: 20px;
 }
@@ -315,7 +334,7 @@ header nav {
 .informacion {
     flex: 0 0 100%;
     max-width: 100%;
-    background-color:rgba(232, 232, 232, 0.5);
+    background-color: rgba(232, 232, 232, 0.5);
     border: 2px solid var(--text-black-400);
     color: var(--color-acento);
     text-align: center;
@@ -324,70 +343,74 @@ header nav {
 
 }
 
-.informacion .info-1:hover{
+.informacion .info-1:hover {
     box-shadow: 0 0 5px 3px var(--color-acento);
     transition: 0.6s all ease;
     transform: scale(1.1);
 
 
-    
+
 }
 
-.informacion .info-2:hover{
+.informacion .info-2:hover {
     box-shadow: 0 0 5px 3px var(--color-acento);
     transition: 0.6s all ease;
     transform: scale(1.1);
 
-    
+
 }
 
-.informacion .info-3:hover{
+.informacion .info-3:hover {
     box-shadow: 0 0 5px 3px var(--color-acento);
     transition: 0.6s all ease;
     transform: scale(1.1);
 
-    
+
 }
 
-.informacion .info-4:hover{
+.informacion .info-4:hover {
     box-shadow: 0 0 5px 3px var(--color-acento);
     transition: 0.6s all ease;
     transform: scale(1.1);
 
-    
+
 }
 
-.informacion .all{
+.informacion .all {
     flex: 0 0 50%;
     margin-left: 20px;
     margin-top: 25px;
     margin-bottom: 15px;
     max-width: 90%;
     display: flex;
-    
+
 }
 
-.informacion .info-1, .info-2, .info-3, .info-4{
-    background-color:rgba(232, 232, 232, 0.5);
+.informacion .info-1,
+.info-2,
+.info-3,
+.info-4 {
+    background-color: rgba(232, 232, 232, 0.5);
     color: var(--skin-color);
 }
 
-.informacion h1{
+.informacion h1 {
     background-color: var(--bg-black-900-);
 }
 
-.informacion p{
+.informacion p {
     color: var(--text-black-700);
 }
- .container-footer{
+
+.container-footer {
     margin-left: 2%;
     color: var(--bg-black-100);
     width: 50%;
- }
+}
 
 
 
- .redes h2{
+.redes h2 {
     font-size: 2.5em;
     color: var(--bg-black-100);
     font-family: 'Bebas Neue', sans-serif;
@@ -397,19 +420,19 @@ header nav {
     font-family: 'Poppins', sans-serif;
     font-family: 'Sofia Sans', sans-serif;
 
- }
- 
- .redes{
+}
+
+.redes {
     display: flex;
     margin-top: 7%;
     margin-left: 5%;
- }
+}
 
- .redes .icon{
+.redes .icon {
     margin-left: 10%;
- }
+}
 
- .redes a{
+.redes a {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -420,12 +443,12 @@ header nav {
 
 
 
-.redes a:hover{
+.redes a:hover {
     background-color: #f7465b;
 }
 
 
-.redes .icon .div-1{
+.redes .icon .div-1 {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -433,10 +456,10 @@ header nav {
     margin: 0 auto 30px;
     text-align: center;
     transition: all 0.5s ease;
-   
+
 }
 
-.redes .icon .div-1 .fa-brands{
+.redes .icon .div-1 .fa-brands {
     font-size: 35px;
     margin-left: 30%;
     margin-top: 3%;
@@ -445,24 +468,24 @@ header nav {
     transition: all 0.5s ease;
 }
 
-.redes .icon:hover .div-1{
+.redes .icon:hover .div-1 {
     background-color: var(--skin-color);
     text-decoration: none !important;
 }
 
-.redes .icon:hover .div-1 .fa-brands{
+.redes .icon:hover .div-1 .fa-brands {
     padding-left: 5%;
     font-size: 25px;
     color: #ffffff;
 
 }
 
-.redes .icon:hover .div-1 a{
+.redes .icon:hover .div-1 a {
     text-decoration: none;
 }
 
 
-.redes .icon .div-2{
+.redes .icon .div-2 {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -470,10 +493,10 @@ header nav {
     margin: 0 auto 30px;
     text-align: center;
     transition: all 0.5s ease;
-   
+
 }
 
-.redes .icon .div-2 .fa-brands{
+.redes .icon .div-2 .fa-brands {
     font-size: 35px;
     margin-left: 30%;
     margin-top: 3%;
@@ -482,24 +505,24 @@ header nav {
     transition: all 0.5s ease;
 }
 
-.redes .icon:hover .div-2{
+.redes .icon:hover .div-2 {
     background-color: var(--skin-color);
     text-decoration: none !important;
 }
 
-.redes .icon:hover .div-2 .fa-brands{
+.redes .icon:hover .div-2 .fa-brands {
     padding-left: 2%;
     font-size: 25px;
     color: #ffffff;
 
 }
 
-.redes .icon:hover .div-2 a{
+.redes .icon:hover .div-2 a {
     text-decoration: none;
 }
 
 
-.redes .icon .div-3{
+.redes .icon .div-3 {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -507,10 +530,10 @@ header nav {
     margin: 0 auto 30px;
     text-align: center;
     transition: all 0.5s ease;
-   
+
 }
 
-.redes .icon .div-3 .fa-brands{
+.redes .icon .div-3 .fa-brands {
     font-size: 35px;
     margin-left: 30%;
     margin-top: 3%;
@@ -519,23 +542,60 @@ header nav {
     transition: all 0.5s ease;
 }
 
-.redes .icon:hover .div-3{
+.redes .icon:hover .div-3 {
     background-color: var(--skin-color);
     text-decoration: none !important;
 }
 
-.redes .icon:hover .div-3 .fa-brands{
+.redes .icon:hover .div-3 .fa-brands {
     padding-left: 3%;
     font-size: 25px;
     color: #ffffff;
 
 }
 
-.redes .icon:hover .div-3 a{
+.redes .icon:hover .div-3 a {
     text-decoration: none;
 }
 
 
+/*/////////////////////// section responsive /////////////////////*/
 
+@media screen and ( max-width:620px ) {
+    
+    .header .container .nav-responsive{
+        margin-right: 90%;
+    }
 
+    .header .container .href li a {
+        display: none;
+    }
+  
+      .nav-responsive{
+        background-color:#f7465b;
+        margin-top: -75px;
+        border-radius: 15%;
+        padding: 10px;
+  
+      }
+      .nav-responsive{
+        display:block;
+      }
+     
+     .nav .responsive{
+          display:block;
+          position: absolute;
+          right: 0;
+          top: 0px;
+          background-color:#252A2E;
+          width: 100px;
+      }
+     
 
+   .redes{
+    display: block;
+    text-align: center;
+    margin-right: 15%;
+   }
+
+}
