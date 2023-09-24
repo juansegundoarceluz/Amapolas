@@ -150,9 +150,9 @@ header .container {
 
 }
 
-.nav-responsive{
-    background-color:#f7465b;
-    color:#fff;
+.nav-responsive {
+    background-color: #f7465b;
+    color: #fff;
     border-radius: 5px;
     cursor: pointer;
     display: none;
@@ -561,41 +561,108 @@ header nav {
 
 /*/////////////////////// section responsive /////////////////////*/
 
-@media screen and ( max-width:620px ) {
-    
-    .header .container .nav-responsive{
+@media screen and (min-width:695px) {
+    .container-2 h3 {
+        font-size: 2.5em;
+    }
+
+    .container-2 p {
+        font-size: 1.6em;
+
+
+    }
+
+    .container-3 h3 {
+        font-size: 2.5em;
+    }
+
+    .container-3 p {
+        font-size: 1.6em;
+
+
+    }
+
+    .container-4 h3 {
+        font-size: 2.5em;
+    }
+
+    .container-4 p {
+        font-size: 1.6em;
+
+
+    }
+}
+
+
+@media screen and (max-width:620px) {
+
+    .header .container .nav-responsive {
         margin-right: 90%;
     }
 
     .header .container .href li a {
         display: none;
     }
-  
-      .nav-responsive{
-        background-color:#f7465b;
+
+    .nav-responsive {
+        background-color: #f7465b;
         margin-top: -75px;
         border-radius: 15%;
         padding: 10px;
-  
-      }
-      .nav-responsive{
-        display:block;
-      }
-     
-     .nav .responsive{
-          display:block;
-          position: absolute;
-          right: 0;
-          top: 0px;
-          background-color:#252A2E;
-          width: 100px;
-      }
-     
 
-   .redes{
-    display: block;
-    text-align: center;
-    margin-right: 15%;
-   }
+    }
+
+    .nav-responsive {
+        display: block;
+    }
+
+    .nav .responsive {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0px;
+        background-color: #252A2E;
+        width: 100px;
+    }
+
+
+    .redes {
+        display: block;
+        text-align: center;
+        margin-right: 15%;
+    }
+
+}
+
+@media screen and (max-width:440px) {
+
+    .header .container .nav-responsive {
+        width: 12%;
+        margin-left: 90%;
+    }
+
+    .container-2 {
+        height: 325px;
+        width: 300px;
+    }
+
+    .container-2 h3 {
+        font-size: 1.6em;
+    }
+
+    .container-3 {
+        height: 325px;
+    }
+
+    .container-3 h3 {
+        font-size: 1.6em;
+    }
+    .container-4 {
+        height: 325px;
+    }
+
+    .container-4 h3 {
+        font-size: 1.4em;
+    }
 
 }
