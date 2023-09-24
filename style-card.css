@@ -238,12 +238,21 @@ button:hover {
     }
 
     .card{
-        padding: 50px 50px 50px 50px;
+        padding: 80px 80px 80px 80px;
+        margin-top: 60px;
     }
 
     .card img{
         width: 200px;
         margin: 10px -40px 10px;
+    }
+    .card p{
+        font-size: 1.8em;
+    }
+
+    .card button{
+        font-size: 2.0em;
+        margin-top: 20px;
     }
 
 
