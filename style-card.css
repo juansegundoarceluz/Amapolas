@@ -189,6 +189,7 @@ button:hover {
 }
 
 .card-accesorios img {
+    flex: 0 0 50%;
     margin-top: 10px;
     border-radius: 10%;
     width: 200px;
@@ -209,3 +210,34 @@ button:hover {
 .card-accesorios .description p span {
     color: #ff1f39
 }
+
+@media screen and (max-width:1000px){
+    .card{
+        width: 100%;
+    }
+
+    .card .all{
+        width: 100%;
+    }
+    
+    .card img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:640px){
+     .all{
+        display: block;
+        margin: auto;
+        width: 300px;
+
+        
+    }
+
+    .card{
+        width: 100%
+    }
+}
+
+
+
