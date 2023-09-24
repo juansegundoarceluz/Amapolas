@@ -44,6 +44,7 @@ button:hover {
     display: flex;
 }
 
+
 .card {
     flex: 0 0 100%;
     max-width: 23%;
@@ -226,17 +227,26 @@ button:hover {
 }
 
 @media screen and (max-width:640px) {
+
+
     .all {
-        display: block;
+        display: inline-block;
         margin: auto;
         width: 100%;
         margin-left: 25%;
         padding-top: 30px;
     }
 
-    .all .description{
-        display: none;
+    .card{
+        padding: 50px 50px 50px 50px;
     }
+
+    .card img{
+        width: 200px;
+        margin: 10px -40px 10px;
+    }
+
+
 
 
 
