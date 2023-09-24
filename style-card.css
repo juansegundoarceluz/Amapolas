@@ -211,33 +211,33 @@ button:hover {
     color: #ff1f39
 }
 
-@media screen and (max-width:1000px){
-    .card{
+@media screen and (max-width:1000px) {
+    .card {
         width: 100%;
     }
 
-    .card .all{
+    .card .all {
         width: 100%;
     }
-    
-    .card img{
+
+    .card img {
         width: 100%;
     }
 }
 
-@media screen and (max-width:640px){
-     .all{
+@media screen and (max-width:640px) {
+    .all {
         display: block;
         margin: auto;
-        width: 300px;
-
-        
+        width: 100%;
+        margin-left: 25%;
+        padding-top: 30px;
     }
 
-    .card{
-        width: 100%
+    .all .description{
+        display: none;
     }
+
+
+
 }
-
-
-
