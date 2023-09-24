@@ -561,6 +561,26 @@ header nav {
 
 /*/////////////////////// section responsive /////////////////////*/
 
+@media screen and (max-width:813px){
+    .informacion .all{
+        display: block;
+        margin: 30px;
+    }
+
+    .informacion .info-1:hover{
+        margin-bottom: 50px;
+    }
+    .informacion .info-2:hover{
+        margin-top: 50px;
+    }
+    .informacion .info-3:hover{
+        margin-top: 50px;
+    }
+    .informacion .info-4:hover{
+        margin-top: 50px;
+    }
+}
+
 @media screen and (min-width:695px) {
     .container-2 h3 {
         font-size: 2.5em;
