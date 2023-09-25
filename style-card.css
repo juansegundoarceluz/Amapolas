@@ -230,29 +230,29 @@ button:hover {
 
 
     .all {
-        display: inline-block;
+        display:block;
         margin: auto;
         width: 100%;
-        margin-left: 25%;
-        padding-top: 30px;
+        margin-left: 15%;
     }
 
     .card{
-        padding: 80px 80px 80px 80px;
-        margin-top: 60px;
+        padding: 50px 80px 5px 80px;
+        margin-top: 50px;
     }
 
     .card img{
         width: 200px;
-        margin: 10px -40px 10px;
+        margin: -30px -50px 10px;
+        
     }
     .card p{
-        font-size: 1.8em;
+        font-size: 1.1em;
     }
 
     .card button{
         font-size: 2.0em;
-        margin-top: 20px;
+        margin: 20px -20px 30px;
     }
 
 
