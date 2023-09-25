@@ -1,4 +1,87 @@
-[data-animacion="show"]{
+*root{
+    --skin-color: #f7465b;
+    --color-acento: #fa7988;
+    --text-black-900: #252A2E;
+    --text-black-700: #1e2326;
+}
+
+
+/*////////////// seccion inicio logo //////////////*/
+
+* * ::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-family: inherit;
+}
+
+.introduccion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    background: var(--text-black-700);
+    transition: 1s;
+}
+
+.introduccion img {
+    top: 170px;
+    position: absolute;
+}
+
+.introduccion p {
+
+    color: gray;
+    font-size: 1.6rem;
+    margin-top: 350px;
+}
+
+.introduccion .logo {
+    font-size: 2.5em;
+    color: var(--skin-color);
+}
+
+.introduccion .logo-parts {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo-parts.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out .5s;
+}
+
+.logo-parts.fade {
+    bottom: 250px;
+    opacity: 0;
+    transition: ease-in-out .5s;
+}
+
+.content{
+    width: 100%;
+    padding: 50px;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+[data-animacion="show"] {
     opacity: 0;
     transform: translate(100%);
     transition: .9s ease-in .3s;
@@ -8,7 +91,7 @@
     --transfrom: translate(0);
 }
 
-.unset{
+.unset {
     opacity: var(--opacity);
     transform: var(--transfrom);
 }

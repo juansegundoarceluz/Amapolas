@@ -1,3 +1,36 @@
+//////// seccion introduccion logo /////////////////
+let intro = document.querySelector('.introduccion');
+let logo = document.querySelector('.logo');
+let logoSpan = document.querySelectorAll('.logo-parts');
+
+window.addEventListener('DOMContentLoaded', () => {
+
+    setTimeout(() => {
+
+        logoSpan.forEach((span, index) => {
+            setTimeout(() => {
+                span.classList.add('active');
+            }, (index + 1) * 100);
+
+        });
+        setTimeout(() => {
+            logoSpan.forEach(element => {
+
+            }); ((span, index) => {
+                setTimeout(() => {
+                    span.classList.remove('active');
+                    span.classList.add('fade');
+                }, (span + 1) * 50);
+            });
+        }, 2000);
+
+        setTimeout(() => {
+            intro.style.top = '-100vh';
+        }, 2300);
+    });
+})
+
+
 // typing animation //
 
 var typed = new Typed(".typing", {
