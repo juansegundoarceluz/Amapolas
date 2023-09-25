@@ -224,6 +224,18 @@ button:hover {
     .card img {
         width: 100%;
     }
+    .card-invierno {
+        width: 100%;
+    }
+
+    .card-invierno .all-invierno {
+        width: 100%;
+    }
+
+    .card-invierno img {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width:640px) {
@@ -254,7 +266,56 @@ button:hover {
         font-size: 2.0em;
         margin: 20px -20px 30px;
     }
+    .all-invierno{
+        display:block;
+        margin: auto;
+        width: 100%;
+        margin-left: 15%;
+    }
 
+    .card-invierno{
+        padding: 50px 80px 5px 80px;
+        margin-top: 50px;
+    }
+
+    .card-invierno img{
+        width: 200px;
+        margin: -30px -50px 10px;
+        
+    }
+    .card-invierno p{
+        font-size: 1.1em;
+    }
+
+    .card-invierno button{
+        font-size: 2.0em;
+        margin: 20px -20px 30px;
+    }
+    .all-accesorios {
+        display:block;
+        margin: auto;
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .card-accesorios{
+        padding: 50px 80px 5px 80px;
+        margin-top: 50px;
+    }
+
+    .card-accesorios img{
+        width: 200px;
+        margin: -30px -50px 10px;
+        
+    }
+    .card-accesorios p{
+        font-size: 1.1em;
+    }
+
+    .card-accesorios button{
+        font-size: 2.0em;
+        margin: 20px -20px 30px;
+    }
 
 
 
