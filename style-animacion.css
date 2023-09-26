@@ -28,7 +28,7 @@
     flex-direction: column;
     z-index: 1;
     background: var(--text-black-700);
-    transition: 2s;
+    transition: 2.3s;
 }
 
 
