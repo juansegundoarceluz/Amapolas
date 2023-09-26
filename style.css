@@ -624,35 +624,19 @@ header nav {
 
 @media screen and (max-width:620px) {
 
-    .header .container .nav-responsive {
-        margin-right: 90%;
+    .header .container .h1{
+        margin-top: -100px;
+        font-size: 0.9em;
     }
+
+
+
 
     .header .container .href li a {
         display: none;
     }
 
-    .nav-responsive {
-        background-color: #f7465b;
-        margin-top: -75px;
-        border-radius: 15%;
-        padding: 10px;
-
-    }
-
-    .nav-responsive {
-        display: block;
-    }
-
-    .nav .responsive {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0px;
-        background-color: #252A2E;
-        width: 100px;
-    }
-
+   
 
     .redes {
         display: block;
