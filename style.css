@@ -8,6 +8,7 @@
     --bg-black-50: #f2f2f2;
     --text-black-900: #252A2E;
     --text-black-700: #1e2326;
+    --text-black-1000: #101314;
     --text-black-350: #f6f6f7;
     --text-black-400: #f2f2f2;
     --text-black-850: #ffffff;
@@ -404,7 +405,13 @@ header nav {
 }
 
 .informacion p {
-    color: var(--text-black-700);
+    color: var(--text-black-1000);
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.informacion p span{
+    color: #f7465b;
 }
 
 .container-footer {
