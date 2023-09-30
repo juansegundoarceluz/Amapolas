@@ -24,6 +24,7 @@ button {
     margin-bottom: 10px;
     font-weight: initial;
     border-radius: 10px;
+    margin-left: 15px;
     border: 1px solid rgba(249, 249, 249, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0, 5);
     color: var(--color-acento);
@@ -97,6 +98,7 @@ button:hover {
     margin-bottom: 10px;
     font-weight: initial;
     border-radius: 10px;
+    margin-left: 15px;
     border: 1px solid rgba(249, 249, 249, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0, 5);
     color: var(--color-invierno);
@@ -212,6 +214,24 @@ button:hover {
 .card-accesorios .description p span {
     color: var(--text-black-350);
 }
+.boton-accesorios {
+
+    font-size: 1.15em;
+    margin-bottom: 10px;
+    font-weight: initial;
+    border-radius: 10px;
+    margin-left: 15px;
+    border: 1px solid rgba(249, 249, 249, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0, 5);
+    color: var(--color-acento);
+    background-color: var(--text-black-850);
+}
+
+.boton-accesorios:hover {
+    transition: 0.6s all ease;
+    transform: scale(1.15);
+    box-shadow: 0 0 5px 3px var(--bg-black-50);
+}
 
 @media screen and (max-width:1000px) {
     .card {
@@ -326,5 +346,15 @@ button:hover {
 
 
 
+
+}
+
+@media screen and (max-width:480px){
+    .boton-invierno{
+        width: 40%;
+    }
+    button{
+        width: 100%;
+    }
 
 }
