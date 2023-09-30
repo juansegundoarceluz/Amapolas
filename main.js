@@ -3,7 +3,7 @@ let intro = document.querySelector('.introduccion');
 let logo = document.querySelector('.logo');
 let logoSpan = document.querySelectorAll('.logo-parts');
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', (e) => {
 
     setTimeout(() => {
 
@@ -27,8 +27,12 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             intro.style.top = '-100vh';
         }, 2300);
+        
+
+       
     });
 })
+
 
 ////////////// section nav responsive////////////////////
 let menuVisible = false;
@@ -54,8 +58,10 @@ var typed = new Typed(".typing", {
     typeSpeed: 150,
     BackSpeed: 60,
     loop: true
+    
 
 })
+
 
 // const contenedor1 = document.querySelector(".container-1");
 
